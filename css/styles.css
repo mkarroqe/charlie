@@ -10154,9 +10154,6 @@ body {
     background-color: transparent;
     transition: background-color 0.3s ease-in-out;
   }
-  #mainNav a {
-    color: #ffd;
-  }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
     color: #ffd;
@@ -10173,7 +10170,7 @@ body {
     color: #ffd;
   }
   #mainNav.navbar-shrink {
-    background-color: #ffd;
+    background-color: #000;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #ffd;
@@ -10187,7 +10184,7 @@ body {
     color: forestgreen;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #ffd;
+    color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
     color: forestgreen;
