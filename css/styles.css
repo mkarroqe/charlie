@@ -10121,7 +10121,7 @@ body {
 
 #mainNav {
   min-height: 3.5rem;
-  background-color: #ffd;
+  background-color: #000;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10133,7 +10133,7 @@ body {
   outline: none;
 }
 #mainNav .navbar-brand {
-  color: #000000;
+  color: #ffd;
   font-weight: 700;
   padding: 0.9rem 0;
 }
@@ -10154,9 +10154,12 @@ body {
     background-color: transparent;
     transition: background-color 0.3s ease-in-out;
   }
+  #mainNav a {
+    color: #ffd;
+  }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: #ffd;
   }
   #mainNav .nav-link {
     transition: none;
@@ -10170,7 +10173,7 @@ body {
     color: #ffd;
   }
   #mainNav.navbar-shrink {
-    background-color: #000;
+    background-color: #ffd;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #ffd;
@@ -10184,7 +10187,7 @@ body {
     color: forestgreen;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #ffd;
   }
   #mainNav.navbar-shrink .nav-link.active {
     color: forestgreen;
